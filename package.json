@@ -1,7 +1,7 @@
 {
     "name": "artillery-io-snippets",
     "displayName": "Artillery.io Snippets",
-    "description": "Snippets for JS and YAML intellisense",
+    "description": "Snippets for JS function signatures and YAML scenario/config formatting",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.44.0"

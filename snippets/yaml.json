@@ -8,7 +8,7 @@
 			"\t\t- duration: 1",
 			"\t\t\tarrivalRate: 1",
 			"\t\t\tname: \"Phase 1\"",
-			"\tprocessor: \"./myProcessorPath.js\"",
+			"\tprocessor: \"./myProcessor.js\"",
 			"# For more information: https://artillery.io/docs/script-reference/"
 		],
 		"description": "Basic Artillery Config"
