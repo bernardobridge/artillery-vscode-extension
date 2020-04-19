@@ -14,7 +14,8 @@
 		"prefix": "artilleryBeforeRequest",
 		"body": [
 			"function myBeforeRequestHandler(req, context, ee, next) {",
-			"\t",
+			"\t//Change your function name and add your logic here.",
+			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
 			"\tnext();",
 			"};"
 		],
