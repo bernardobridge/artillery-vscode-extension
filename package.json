@@ -10,7 +10,7 @@
     "categories": [
         "Snippets"
     ],
-    "icon": "images/artillery-square.png",
+    "icon": "images/artillery-square.jpg",
     "contributes": {
         "snippets": [
             {
