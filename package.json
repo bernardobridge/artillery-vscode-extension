@@ -2,6 +2,7 @@
     "name": "artillery-io-snippets",
     "displayName": "Artillery.io Snippets",
     "description": "Snippets for JS function signatures and YAML scenario/config formatting.",
+    "publisher": "bernardobridge",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.44.0"
