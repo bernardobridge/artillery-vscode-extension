@@ -1,0 +1,57 @@
+{
+	"Artillery Generic Function Hook": {
+		"prefix": "artilleryGenericFunction",
+		"body": [
+			"function myFunction(context, ee, next) {",
+			"\t//Change your function name and add your logic here.",
+			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\tnext();",
+			"};"
+		],
+		"description": "Artillery Generic Function Hook"
+	},
+	"Artillery Before Request Hook": {
+		"prefix": "artilleryBeforeRequest",
+		"body": [
+			"function myBeforeRequestHandler(req, context, ee, next) {",
+			"\t//Change your function name and add your logic here.",
+			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\tnext();",
+			"};"
+		],
+		"description": "Artillery Before Request Hook"
+	},
+	"Artillery Before Scenario Hook": {
+		"prefix": "artilleryBeforeScenario",
+		"body": [
+			"function myBeforeScenarioHandler(context, ee, next) {",
+			"\t//Change your function name and add your logic here.",
+			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\tnext();",
+			"};"
+		],
+		"description": "Artillery Before Scenario Hook"
+	},
+	"Artillery After Response Hook": {
+		"prefix": "artilleryAfterResponse",
+		"body": [
+			"function myAfterResponseHandler(req, res, context, ee, next) {",
+			"\t//Change your function name and add your logic here.",
+			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\tnext();",
+			"};"
+		],
+		"description": "Artillery After Response Hook"
+	},
+	"Artillery After Scenario Hook": {
+		"prefix": "artilleryAfterScenario",
+		"body": [
+			"function myAfterScenarioHandler(context, ee, next) {",
+			"\t//Change your function name and add your logic here.",
+			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\tnext();",
+			"};"
+		],
+		"description": "Artillery After Scenario Hook"
+	}
+}
