@@ -1,14 +1,15 @@
 {
     "name": "artillery-io-snippets",
     "displayName": "Artillery.io Snippets",
-    "description": "Snippets for JS function signatures and YAML scenario/config formatting",
-    "version": "0.0.1",
+    "description": "Snippets for JS function signatures and YAML scenario/config formatting.",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.44.0"
     },
     "categories": [
         "Snippets"
     ],
+    "icon": "images/artillery-square.png",
     "contributes": {
         "snippets": [
             {
@@ -20,5 +21,9 @@
                 "path": "./snippets/yaml.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bernardobridge/artillery-vscode-extension"
     }
 }
