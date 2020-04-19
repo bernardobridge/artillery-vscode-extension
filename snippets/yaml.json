@@ -1,0 +1,45 @@
+{
+    "Artillery Basic Config": {
+		"prefix": "artilleryBasicConfig",
+		"body": [
+			"config:",
+			"\ttarget: \"https://www.google.com\"",
+			"\tphases:",
+			"\t\t- duration: 1",
+			"\t\t\tarrivalRate: 1",
+			"\t\t\tname: \"Phase 1\"",
+			"\tprocessor: \"./myProcessorPath.js\"",
+			"# For more information: https://artillery.io/docs/script-reference/"
+		],
+		"description": "Basic Artillery Config"
+	},
+	"Artillery Basic Scenario": {
+		"prefix": "artilleryBasicScenario",
+		"body": [
+			"scenarios:",
+			"\t- flow:",
+			"\t\t\t- get:",
+			"\t\t\t\t\turl: \"/\"",
+			"# For more information: https://artillery.io/docs/script-reference/"
+		],
+		"description": "Basic Artillery Scenario"
+	},
+	"Artillery Scenario With Hooks": {
+		"prefix": "artilleryScenarioWithHooks",
+		"body": [
+			"scenarios:",
+			"\t- name: Example Scenario 1",
+			"\t\tbeforeScenario: [\"myBeforeSenarioHandler\"]",
+			"\t\tflow:",
+			"\t\t\t- function: [\"myFunction\"]",
+			"\t\t\t- get:",
+			"\t\t\t\t\tbeforeRequest: [\"myBeforeRequestHandler\"]",
+			"\t\t\t\t\turl: \"/\"",
+			"\t\t\t\t\tafterResponse: [\"myAfterResponseHandler\"]",
+			"\t\t\t- function: [\"myFunction\"]",
+			"\t\tafterScenario: [\"afterScenarioHandler\"]",
+			"# For more information: https://artillery.io/docs/script-reference/"
+		],
+		"description": "Artillery Scenario With Hooks"
+	}
+}
