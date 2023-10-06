@@ -9,7 +9,7 @@
 			"\t\t\tarrivalRate: 1",
 			"\t\t\tname: \"Phase 1\"",
 			"\tprocessor: \"./myProcessor.js\"",
-			"# For more information: https://artillery.io/docs/script-reference/"
+			"# For more information: https://docs.art/reference/test-script#config-section"
 		],
 		"description": "Basic Artillery Config"
 	},
@@ -20,7 +20,7 @@
 			"\t- flow:",
 			"\t\t\t- get:",
 			"\t\t\t\t\turl: \"/\"",
-			"# For more information: https://artillery.io/docs/script-reference/"
+			"# For more information: https://docs.art/reference/test-script#scenarios-section"
 		],
 		"description": "Basic Artillery Scenario"
 	},
@@ -38,7 +38,7 @@
 			"\t\t\t\t\tafterResponse: [\"myAfterResponseHandler\"]",
 			"\t\t\t- function: [\"myFunction\"]",
 			"\t\tafterScenario: [\"afterScenarioHandler\"]",
-			"# For more information: https://artillery.io/docs/script-reference/"
+			"# For more information: https://docs.art/reference/test-script#scenarios-section"
 		],
 		"description": "Artillery Scenario With Hooks"
 	}
