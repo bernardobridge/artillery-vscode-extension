@@ -4,7 +4,7 @@
 		"body": [
 			"function myFunction(context, ee, next) {",
 			"\t//Change your function name and add your logic here.",
-			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\t//For more information, check: https://docs.art/http-reference#function-signatures",
 			"\tnext();",
 			"};"
 		],
@@ -15,7 +15,7 @@
 		"body": [
 			"function myBeforeRequestHandler(req, context, ee, next) {",
 			"\t//Change your function name and add your logic here.",
-			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\t//For more information, check: https://docs.art/http-reference#function-signatures",
 			"\tnext();",
 			"};"
 		],
@@ -26,7 +26,7 @@
 		"body": [
 			"function myBeforeScenarioHandler(context, ee, next) {",
 			"\t//Change your function name and add your logic here.",
-			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\t//For more information, check: https://docs.art/http-reference#function-signatures",
 			"\tnext();",
 			"};"
 		],
@@ -37,7 +37,7 @@
 		"body": [
 			"function myAfterResponseHandler(req, res, context, ee, next) {",
 			"\t//Change your function name and add your logic here.",
-			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\t//For more information, check: https://docs.art/http-reference#function-signatures",
 			"\tnext();",
 			"};"
 		],
@@ -48,7 +48,7 @@
 		"body": [
 			"function myAfterScenarioHandler(context, ee, next) {",
 			"\t//Change your function name and add your logic here.",
-			"\t//For more information, check: https://artillery.io/docs/http-reference/#function-signatures",
+			"\t//For more information, check: https://docs.art/http-reference#function-signatures",
 			"\tnext();",
 			"};"
 		],
