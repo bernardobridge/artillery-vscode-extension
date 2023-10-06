@@ -10,6 +10,16 @@
 		],
 		"description": "Artillery Generic Function Hook"
 	},
+	"Artillery Playwright Function Hook": {
+		"prefix": "artilleryPwrightFunction",
+		"body": [
+			"function artilleryPlaywrightFunction(page, vuContext, events) {",
+			"\t//Change your function name and add your logic here.",
+			"\t//For more information, check: https://docs.art/playwright#test-function-api",
+			"};"
+		],
+		"description": "Artillery Playwright Test Function Hook"
+	},
 	"Artillery Before Request Hook": {
 		"prefix": "artilleryBeforeRequest",
 		"body": [
