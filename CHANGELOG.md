@@ -4,6 +4,16 @@ All notable changes to the "artillery-io-snippets" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.2.0]
+
+### Features
+
+* add new test argument to pw hook ([5a7807a](https://github.com/bernardobridge/artillery-vscode-extension/commit/5a7807a086242053c87dcaf7e34c3c296cdb4f2f))
+
+### Bug Fixes
+
+* make playwright hook async by default ([0425112](https://github.com/bernardobridge/artillery-vscode-extension/commit/0425112cc2cad3e5c7f2ff389e1e72923040a6ea))
+
 ## [1.1.0]
 
 ### Features
