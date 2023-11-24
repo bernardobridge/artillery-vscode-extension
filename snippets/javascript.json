@@ -13,7 +13,7 @@
 	"Artillery Playwright Function Hook": {
 		"prefix": "artilleryPwrightFunction",
 		"body": [
-			"function artilleryPlaywrightFunction(page, vuContext, events) {",
+			"async function artilleryPlaywrightFunction(page, vuContext, events, test) {",
 			"\t//Change your function name and add your logic here.",
 			"\t//For more information, check: https://docs.art/playwright#test-function-api",
 			"};"
